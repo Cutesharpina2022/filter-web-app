@@ -1,0 +1,22 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color:rgba(15, 89, 174, 0.762);
+}
+
+canvas{
+    animation-name:fren;
+    animation-duration: 4s;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes fren {
+  from{ box-shadow: 1px 1px 38px rgb(98, 54, 168);}
+  to{ box-shadow: 1px 1px 38px rgb(141, 31, 40);}
+}
+ body{
+    background-color: blueviolet;
+ }
+
